@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script>
+            function playJohn() {
+              var audio = document.getElementById('john');
+              audio.play();
+            }
+          </script>
+        <script>
+        function playWhite() {
+            var audio = document.getElementById('white');
+            audio.play();
+        }
+        </script>
+        <script>
+            function playAmerica() {
+                var audio = document.getElementById('america');
+                audio.play();
+            }
+            </script>
+                <script>
+                    function playLesMis() {
+                        var audio = document.getElementById('lesmis');
+                        audio.play();
+                    }
+                    </script>
+                            <script>
+                                function playHarry() {
+                                    var audio = document.getElementById('harry');
+                                    audio.play();
+                                }
+                                </script>
+    </head>
+    <body>
+        <audio href='javascript:;' id="john" src="dear_john.mp3" preload="auto"></audio>
+        <a onclick="playJohn()">
+            <img style="height: 300px" src="john.jpeg">
+        </a>
+        <audio href='javascript:;' id="white" src="fart.mp3" preload="auto"></audio>
+        <a onclick="playWhite()">
+            <img style="height: 300px" src="white noise.jpeg">
+        </a>
+        <audio href='javascript:;' id="america" src="america.mp3" preload="auto"></audio>
+        <a onclick="playAmerica()">
+            <img style="height: 300px" src="america.jpeg">
+        </a>
+        <audio href='javascript:;' id="lesmis" src="lesmis.mp3" preload="auto"></audio>
+        <a onclick="playLesMis()">
+            <img style="height: 300px" src="lesmis.png">
+        </a>
+        <audio href='javascript:;' id="harry" src="harry.mp3" preload="auto"></audio>
+        <a onclick="playHarry()">
+            <img style="height: 300px" src="harry.jpeg">
+        </a>
+    </body>
+</html>

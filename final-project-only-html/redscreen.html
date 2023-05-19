@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>high contrast</title>
+  <style>
+    .button {
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    body {
+      animation: alternateBackground 0.5s infinite;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+    @keyframes alternateBackground {
+      0% { background-color: red; }
+      25% { background-color: green; }
+      50% { background-color: blue; }
+      75% { background-color: yellow; }
+    }
+  </style>
+        <script>
+            function worsetrip() {
+              window.location.href = "worsetrip.html";
+            }
+          </script>    
+</head>
+<body>
+    <button class="button" onclick="worsetrip()">pls take me back</button>
+</body>
+</html>
