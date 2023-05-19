@@ -41,6 +41,12 @@
                                     audio.play();
                                 }
                                 </script>
+                                                            <script>
+                                                                function playHamilton() {
+                                                                    var audio = document.getElementById('hamilton');
+                                                                    audio.play();
+                                                                }
+                                                                </script>
     </head>
     <body>
         <audio href='javascript:;' id="john" src="dear_john.mp3" preload="auto"></audio>
@@ -62,6 +68,10 @@
         <audio href='javascript:;' id="harry" src="harry.mp3" preload="auto"></audio>
         <a onclick="playHarry()">
             <img style="height: 300px" src="harry.jpeg">
+        </a>
+        <audio href='javascript:;' id="hamilton" src="hamilton.mp3" preload="auto"></audio>
+        <a onclick="playHamilton()">
+            <img style="height: 300px" src="hamilton.jpeg">
         </a>
     </body>
 </html>
